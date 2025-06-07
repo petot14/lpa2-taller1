@@ -1,5 +1,6 @@
 # R1: pedir el número de porciones
 def pedir_datos():
+<<<<<<< HEAD
     """
     Solicita al usuario que ingrese un número de porciones.
     Valida que sea múltiplo de 4 y mayor o igual a cero.
@@ -46,3 +47,17 @@ def mostrar_resultados(porciones, ingredientes):
     print(f" Leche: {leche:.2f} litros")
     print(f" Azúcar: {azucar:.2f} gramos")
     print(f" Leche condensada: {leche_condensada:.2f} gramos")
+=======
+    return -1
+  
+
+# R2: calcular la cantidad de los ingredientes
+def calcular_ingredientes(porciones):
+    return (1.0, 1.0, 1.0, 1.0)
+
+
+# R3: mostrar los ingredientes necesarios
+def mostrar_resultados (porciones, ingredientes):
+    print("ok")
+
+>>>>>>> efcec4979a40ca8a37669e20aeae337a30064dfd
